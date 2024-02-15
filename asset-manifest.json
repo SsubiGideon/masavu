@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/https//SsubiGideon.github.io/masavu/static/css/main.8087d9fb.css",
+    "main.js": "/https//SsubiGideon.github.io/masavu/static/js/main.2ce183b0.js",
+    "index.html": "/https//SsubiGideon.github.io/masavu/index.html",
+    "main.8087d9fb.css.map": "/https//SsubiGideon.github.io/masavu/static/css/main.8087d9fb.css.map",
+    "main.2ce183b0.js.map": "/https//SsubiGideon.github.io/masavu/static/js/main.2ce183b0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8087d9fb.css",
+    "static/js/main.2ce183b0.js"
+  ]
+}
