@@ -1,0 +1,41 @@
+.member {
+    display: flex;
+    margin-top: 4rem;
+    justify-content: center;
+    align-items:center ;
+    height: fit-content;
+     
+}
+
+#member {
+     
+    width: 60%;
+    height: 90%;
+    font-size: 2vw;
+    margin: 2rem;
+}
+#member h2 {
+    display: inline;
+}
+.emptymember{
+    
+    width: 50%;
+}
+#member button {
+    background-color: red;
+    color: white;
+    font-size: 3vw;
+    height:fit-content;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-left: 2rem;
+    padding: 3px;
+     
+}
+#member button:hover{
+    background-color: black;
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+

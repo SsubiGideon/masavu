@@ -1,0 +1,14 @@
+.b-member{
+    height: fit-content;
+    margin-top: 5rem;
+    display: flex;
+}
+#b-member{
+    width: 50%;
+     color: rgb(251, 252, 250);
+     font-size:3.3vw;
+     padding: 2rem;
+}
+#b-member p {
+    background-color: black;
+}

@@ -1,0 +1,59 @@
+.footer {
+    height: fit-content;
+    padding: 2rem ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3rem;
+     
+}
+
+.footer h3 {
+    align-self: center;
+    font-size: 5vw;
+    margin: 1rem;
+    color: blue;
+    background-color: black;
+    border-radius: 7px;
+    padding: 0 7px;
+}
+.contactus{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+    align-items: flex-start;
+}
+.contactus div {
+    display: flex;
+    margin: .4rem;
+    font-size: 3vw;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 7px;
+}
+.contactus a {
+    color: white;
+    background-color: black;
+    padding: 0 7px;
+    border-radius: 7px;
+    font-size: 3vw;
+}
+.contactus a:hover{
+    color: blue;
+    background-color: black;
+}
+
+.contactus img {
+    width: 30px;
+    height: 30px;
+}
+.contactus p{
+    margin: 0;
+    color: white;
+    background-color: black;
+    border-radius: 7px;
+    font-size: 3vw;
+}

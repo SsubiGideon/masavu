@@ -1,0 +1,59 @@
+.wwd {
+    height: fit-content;
+    display: flex;
+    align-items: center;    
+}
+
+.whatwedo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 2rem;
+    height: fit-content;
+    overflow: hidden; 
+}
+
+#whatwedo{
+    font-size: 6vw;
+}
+#whatwedo h2{
+    margin: 1rem;
+}
+
+.wwdo {
+    display: flex;
+    align-items: center;
+    gap: 3rem; 
+    justify-content: center; 
+}
+ 
+.wwdimg img:hover{
+    transform: scale(1.2);
+}
+.wwdimg{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.wwdimg img {
+    width: 100%;
+    height: 100%;
+    transform: .2;
+    
+}
+
+.wwdcont {
+    height: fit-content;
+    width: fit-content;
+    color:rgb(3, 92, 92) ;
+    padding: .5rem;
+    font-size: 3vh;
+}
+
+ 
+
+#wwd {
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.753);
+}
