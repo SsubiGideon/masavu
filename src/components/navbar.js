@@ -3,7 +3,8 @@ import { Link } from "react-router-dom";
 import { signOut } from "firebase/auth";
 import { auth } from "./config/firebase.ts";
 import {useAuthState} from 'react-firebase-hooks/auth'
- 
+import {FiAlignJustify} from "react-icons/fi"
+import {MdClose} from "react-icons/md"
 
 export default function Navbar (){
     const [shownav, setShownav] = useState(false);
@@ -33,7 +34,7 @@ export default function Navbar (){
             {user && <img src={user?.photoURL} width={40}/>}
             <div> {user?.displayName.split(' ')[1]}</div>
 
-            <button onClick={toggleNavBar}>=</button>
+            <div className="menu-icon" onClick={toggleNavBar}>{shownav? <MdClose size={20}/>: <FiAlignJustify size={20} />} </div>
         </div>
     )
 }

@@ -17,7 +17,7 @@
     z-index: 999;
 }
 
-.navbar button {
+.menu-icon{
     width: 30px;
     display: none
 }
@@ -100,7 +100,7 @@ li:active{
         display: none;
     }
 
-    .navbar button {
+    .menu-icon{
         display:block
     }
     
